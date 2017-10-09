@@ -26,8 +26,9 @@ class Main extends PluginBase implements Listener{
 		$this->gun1[$event->getPlayer()->getName()] = 6;
 	}
 	function onTouch(PlayerInteractEvent $e){
+		$block = $e->getBlock();
 		$p = $e->getPlayer();
-		$name = $p->getName()
+		$name = $p->getName();
 		$id = $block->getId();
       $item = $p->getInventory()->getItemInHand();
       $hid = $item->getID();
