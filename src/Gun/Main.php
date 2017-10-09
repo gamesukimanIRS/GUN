@@ -35,7 +35,7 @@ class Main extends PluginBase implements Listener{
 			$tama = $this->gun1[$name];
 if($tama == 0){
 $player->sendMessage("弾が0なのでリロードしてください");
-$player->sendMessage("item id: ".$ri."で地面タップでリロード");
+$player->sendMessage("id : 270を地面タップでリロード");
 }else{
 $nbt = new CompoundTag("", [
       "Pos" => new ListTag("Pos", [
