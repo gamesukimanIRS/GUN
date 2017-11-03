@@ -1,5 +1,8 @@
 name: GUN
 main: Gun\Main
-api: [1.0.0, 2.0.0, 3.0.0]
+api: 
+- 2.0.0
+- 3.0.0
 version: 1.0
 author: R_Funa
+authors: gamesukimanIRS
